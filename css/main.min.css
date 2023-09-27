@@ -1,13 +1,17 @@
-@import url(header.min.css);
-@import url(hero.min.css);
-@import url(product.min.css);
-@import url(about.min.css);
-@import url(advice.min.css);
-@import url(business.min.css);
-@import url(brends.min.css);
-@import url(contact.min.css);
-@import url(form.min.css);
-@import url(footer.min.css);
+@import url(header.css);
+@import url(hero.css);
+@import url(product.css);
+@import url(about.css);
+@import url(advice.css);
+@import url(business.css);
+@import url(brends.css);
+@import url(contact.css);
+@import url(form.css);
+@import url(footer.css);
+.backtop,
+.foot {
+  background-color: #fff;
+}
 @font-face {
   font-family: Montserrat;
   src: url(../fonts/Montserrat-Regular.ttf);
@@ -23,6 +27,9 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 .container {
   max-width: 1086px;
   margin: 0 auto;
@@ -30,9 +37,6 @@
 }
 main {
   position: relative;
-}
-.foot {
-  background-color: #fff;
 }
 .links {
   display: -webkit-box;
@@ -60,6 +64,18 @@ main {
   display: -ms-flexbox;
   display: flex;
   gap: 20px;
+}
+.backtop {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 15px 1px rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
 }
 @media only screen and (max-width: 480px) {
   .hero_main,
