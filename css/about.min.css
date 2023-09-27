@@ -1,0 +1,102 @@
+.about_cards,
+.about_main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+}
+.about_card,
+.about_main {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+}
+.about_card h4,
+.about_main p,
+h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  letter-spacing: 0.2px;
+}
+.about {
+  background-color: #fafafa;
+}
+.about_main {
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+h3 {
+  color: var(--color-first);
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 57px;
+  margin-top: 280px;
+}
+.about_main p {
+  color: var(--color-two);
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 20px;
+  margin-top: 10px;
+}
+.about_cards {
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 38px;
+  margin-top: 50px;
+  padding-bottom: 80px;
+}
+.about_card {
+  width: 230px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #fff;
+  padding: 30px 40px;
+  -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.05);
+}
+.about_card:hover {
+  background: #fff;
+  -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.about_card h4 {
+  color: var(--color-first);
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 57px;
+}
+.about_card .about_text,
+.about_card p {
+  text-align: center;
+  color: var(--color-two);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+.about_card p {
+  font-size: 1.6rem;
+}
+.about_card .about_text {
+  font-size: 1.43rem;
+  padding-bottom: 18px;
+}

@@ -1,0 +1,268 @@
+@import url(header.min.css);
+@import url(hero.min.css);
+@import url(product.min.css);
+@import url(about.min.css);
+@import url(advice.min.css);
+@import url(business.min.css);
+@import url(brends.min.css);
+@import url(contact.min.css);
+@import url(form.min.css);
+@import url(footer.min.css);
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+:root {
+  --color-first: #252b42;
+  --color-two: #737373;
+  font-size: 10px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1086px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+main {
+  position: relative;
+}
+.foot {
+  background-color: #fff;
+}
+.links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.link p {
+  color: var(--color-two);
+  font-family: Montserrat;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  padding: 25px 0;
+}
+.link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+@media only screen and (max-width: 480px) {
+  .hero_main,
+  .nav-links,
+  nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+  }
+  :root {
+    font-size: 10px;
+  }
+  nav {
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    height: 350px;
+  }
+  .nav-links {
+    padding: 45px 160px 45px 140px;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .form h6,
+  .menu {
+    display: block;
+  }
+  .footer,
+  .hero_main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+  }
+  .hero-section {
+    height: 1450px;
+  }
+  .hero_main {
+    margin-top: 400px;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .about_cards,
+  .btns,
+  .products {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-pack: center;
+  }
+  .btns {
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 185px;
+  }
+  .product-section {
+    top: 700px;
+  }
+  .about_cards,
+  .products {
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 100px;
+  }
+  .advice_cards,
+  .business_cards,
+  .contact_cards,
+  .logos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-pack: center;
+  }
+  .advice_cards,
+  .business_cards,
+  .contact_cards {
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .business_img img {
+    max-width: 333px;
+  }
+  .logos {
+    width: 149px;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 50px;
+    margin: auto;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .footer,
+  .logo_main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+  }
+  .form h6,
+  .logo_main {
+    -webkit-box-pack: center;
+  }
+  .logo_main {
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 50px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  #mail {
+    padding: 15px 95px 15px 20px;
+  }
+  #email,
+  #how,
+  #tel,
+  #text,
+  textarea {
+    display: none;
+  }
+  .form h6 {
+    padding-bottom: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+  .footer,
+  .form p {
+    -webkit-box-pack: center;
+  }
+  .form p {
+    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+  .footer {
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 32px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 50px 88px;
+  }
+  .footer li {
+    max-width: 150px;
+  }
+  .links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}

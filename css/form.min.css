@@ -1,0 +1,88 @@
+#email,
+#tel,
+#text,
+textarea {
+  border: 1px solid #e0e0e0;
+  color: #828282;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.14px;
+}
+.btnn,
+.form h6 {
+  font-weight: 700;
+}
+.form {
+  margin: 63px 0 0;
+}
+.form h6 {
+  color: var(--color-first);
+  font-family: Montserrat;
+  font-size: 2.4rem;
+  font-style: normal;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  display: none;
+}
+.btnn,
+.form p {
+  font-family: Montserrat;
+  font-size: 1.4rem;
+  font-style: normal;
+  letter-spacing: 0.2px;
+}
+.form p {
+  color: var(--scolor-two);
+  font-weight: 500;
+  line-height: 20px;
+  display: none;
+}
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 10px;
+}
+#email,
+#tel,
+#text {
+  padding: 12px 860px 12px 20px;
+  font-family: Montserrat;
+  font-size: 1.4rem;
+  font-style: normal;
+}
+textarea {
+  padding: 12px 29.5px;
+  font-family: Montserrat;
+  font-size: 1.4rem;
+  font-style: normal;
+  resize: none;
+  outline: 0;
+}
+.btnn {
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  line-height: 28px;
+  padding: 15px 40px;
+  background-color: #ffa62b;
+  border: none;
+  border-radius: 5px;
+  margin-top: 49px;
+  margin-bottom: 98px;
+}
+#how {
+  outline: 0;
+  padding: 12px 880px 12px 20px;
+  border: 1px solid #e0e0e0;
+}

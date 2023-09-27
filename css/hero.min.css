@@ -1,0 +1,55 @@
+.btn,
+.hero_main h1,
+.hero_main p {
+  font-family: Montserrat;
+  font-style: normal;
+  letter-spacing: 0.2px;
+}
+.hero-section {
+  background-image: url(../images/hero-background.png);
+  background-size: cover;
+}
+.hero_main h1 {
+  color: var(--color-first);
+  font-size: 5.8rem;
+  font-weight: 900;
+  line-height: 80px;
+  padding-top: 104px;
+}
+.hero_main p {
+  color: var(--color-two);
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 30px;
+  padding: 35px 0;
+}
+.btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  padding-bottom: 175px;
+}
+.btn {
+  text-decoration: none;
+  color: #00a0c1;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 28px;
+  border: 1px solid #00a0c1;
+  border-radius: 37px;
+  padding: 10px 36px;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+.btn:hover {
+  background-color: #ffa62b;
+  border: none;
+  color: #fff;
+}
+.btn:active {
+  background-color: #e7931e;
+  color: #faebd7;
+}

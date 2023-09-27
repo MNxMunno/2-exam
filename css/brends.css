@@ -1,0 +1,101 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.logos-section {
+  background-color: #fafafa;
+}
+
+.logos_main {
+  padding-bottom: 63px;
+}
+
+.logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  gap: 30px;
+  padding: 58px 0;
+}
+
+.logos img {
+  padding: 0 25px;
+}
+
+.logo_main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #16697a;
+  padding: 30px 50px;
+  margin-top: 57px;
+}
+
+.logo_main h6 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: 0.1px;
+}
+
+input {
+  outline: none;
+}
+
+#mail {
+  padding: 15px 352px 15px 20px;
+  color: var(--color-two);
+  font-family: Montserrat;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 200% */
+  letter-spacing: 0.2px;
+  border-radius: 5px;
+  border: none;
+
+  cursor: pointer;
+}
+
+form {
+  position: relative;
+}
+
+.submit {
+  position: absolute;
+  background-color: #ffa62b;
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 200% */
+  letter-spacing: 0.2px;
+  padding: 15px 22px;
+  border: none;
+  right: 0;
+  border-radius: 0 5px 5px 0;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #eb9a28;
+  color: #fafafa;
+}

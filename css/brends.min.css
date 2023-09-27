@@ -1,0 +1,78 @@
+#mail,
+.submit {
+  font-family: Montserrat;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+}
+.logos-section {
+  background-color: #fafafa;
+}
+.logos_main {
+  padding-bottom: 63px;
+}
+.logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  padding: 58px 0;
+}
+.logos img {
+  padding: 0 25px;
+}
+.logo_main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #16697a;
+  padding: 30px 50px;
+  margin-top: 57px;
+}
+.logo_main h6 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+}
+input {
+  outline: 0;
+}
+#mail {
+  padding: 15px 352px 15px 20px;
+  color: var(--color-two);
+  border-radius: 5px;
+  border: none;
+}
+form {
+  position: relative;
+}
+.submit {
+  position: absolute;
+  background-color: #ffa62b;
+  color: #fff;
+  text-align: center;
+  padding: 15px 22px;
+  border: none;
+  right: 0;
+  border-radius: 0 5px 5px 0;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.submit:hover {
+  background-color: #eb9a28;
+  color: #fafafa;
+}

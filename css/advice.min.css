@@ -1,0 +1,91 @@
+.advice_cards,
+.advice_main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+}
+.advice_card,
+.advice_main {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+}
+.advice_card h6,
+.advice_card p,
+.advice_main h5,
+.advice_main p {
+  font-family: Montserrat;
+  font-style: normal;
+}
+.advice {
+  background-color: #fafafa;
+}
+.advice_main {
+  padding-top: 125px;
+  padding-bottom: 101px;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.advice_main h5 {
+  color: var(--color-first);
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  margin-bottom: 10px;
+}
+.advice_main p {
+  color: var(--color-two);
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+.advice_cards {
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  gap: 39px;
+  margin-top: 45px;
+}
+.advice_card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #fff;
+}
+.advice_card:hover {
+  -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.advice_card h6 {
+  color: var(--color-first);
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  padding-top: 30px;
+}
+.advice_card p {
+  color: var(--color-two);
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  padding: 15px 0 30px;
+}

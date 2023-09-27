@@ -1,0 +1,92 @@
+.bus,
+.business_cards {
+  margin-top: 100px;
+}
+.business_card2,
+.business_cards {
+  margin-bottom: 100px;
+}
+.business_card2 h6,
+.business_main h6,
+.business_main p {
+  font-family: Montserrat;
+  font-style: normal;
+  letter-spacing: 0.2px;
+}
+.business_card2 li,
+.business_cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+}
+.business_main h6 {
+  color: var(--color-first);
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 57px;
+  margin-bottom: 10px;
+}
+.business_main p {
+  color: var(--color-two);
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 20px;
+}
+.business_card2 h6,
+.li-text b {
+  color: var(--color-first);
+  font-weight: 700;
+}
+.business_cards {
+  display: flex;
+  gap: 120px;
+}
+.business_img {
+  max-width: 597px;
+  position: relative;
+}
+.play {
+  width: 97px;
+  background-color: #00a0c1;
+  border-radius: 50%;
+  position: absolute;
+  top: 42%;
+  left: 42%;
+}
+.business_card2 h6 {
+  font-size: 4rem;
+  line-height: 57px;
+}
+.li-text b,
+.li-text p {
+  font-family: Montserrat;
+  font-style: normal;
+  line-height: 24px;
+}
+.business_card2 li {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+}
+ol li {
+  margin-top: 50px;
+}
+.li-text b {
+  font-size: 1.6rem;
+  letter-spacing: 0.1px;
+}
+.li-text p {
+  text-align: start;
+  color: var(--color-two);
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  margin-top: 5px;
+}

@@ -1,0 +1,70 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.hero-section {
+  background-image: url(../images/hero-background.png);
+  background-size: cover;
+}
+
+.hero_main h1 {
+  color: var(--color-first);
+  font-family: Montserrat;
+  font-size: 5.8rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 80px; /* 137.931% */
+  letter-spacing: 0.2px;
+  padding-top: 104px;
+}
+
+.hero_main p {
+  color: var(--color-two);
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 150% */
+  letter-spacing: 0.2px;
+  padding: 35px 0;
+}
+
+.btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  padding-bottom: 175px;
+}
+
+.btn {
+  text-decoration: none;
+  color: #00a0c1;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 200% */
+  letter-spacing: 0.2px;
+  border: 1px solid #00a0c1;
+  border-radius: 37px;
+  padding: 10px 36px;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.btn:hover {
+  background-color: #ffa62b;
+  border: none;
+  color: #fff;
+}
+
+.btn:active {
+  background-color: #e7931e;
+  color: antiquewhite;
+}
