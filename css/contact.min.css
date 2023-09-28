@@ -87,6 +87,13 @@
 .contact_card:hover {
   background-color: var(--color-first);
 }
+#svgg {
+  fill: #00a0c1;
+  padding-bottom: 20px;
+}
+.contact_card:hover #svgg {
+  fill: #fff;
+}
 .contact_card p {
   font-weight: 600;
   padding: 0 15px;
