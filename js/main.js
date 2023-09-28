@@ -11,3 +11,7 @@ function shrink() {
     navbar.classList.remove("navbar-shrink");
   }
 }
+
+document.querySelector("#menu").addEventListener("click", () => {
+  document.querySelector("nav-links").classList.toggle("showmenu");
+});
