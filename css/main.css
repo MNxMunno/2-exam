@@ -33,6 +33,27 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+.dark {
+  background-color: black;
+}
+
+.dark * {
+  color: white !important;
+}
+
+#moon {
+  fill: #000;
+}
+
+.dark #moon {
+  fill: #fff;
+}
+
+#dark-light {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
 
 html {
   scroll-behavior: smooth;

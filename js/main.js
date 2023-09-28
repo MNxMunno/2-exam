@@ -12,6 +12,8 @@ function shrink() {
   }
 }
 
-document.querySelector("#menu").addEventListener("click", () => {
-  document.querySelector("nav-links").classList.toggle("showmenu");
+let modeBtn = document.getElementById("dark-light");
+
+modeBtn.addEventListener("click", function () {
+  document.body.classList.toggle("dark");
 });
