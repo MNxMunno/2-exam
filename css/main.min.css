@@ -185,7 +185,7 @@ main {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
-  .business_img img {
+  video {
     max-width: 333px;
   }
   .logos {

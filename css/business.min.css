@@ -42,17 +42,9 @@
   display: flex;
   gap: 120px;
 }
-.business_img {
-  max-width: 597px;
-  position: relative;
-}
-.play {
-  width: 97px;
-  background-color: #00a0c1;
-  border-radius: 50%;
-  position: absolute;
-  top: 42%;
-  left: 42%;
+video {
+  width: 597px;
+  height: 400px;
 }
 .business_card2 h6 {
   font-size: 4rem;
