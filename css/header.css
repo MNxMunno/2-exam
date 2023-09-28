@@ -96,7 +96,7 @@ nav {
 .dropdown-content {
   position: absolute;
   top: 25px;
-  right: 100px;
+  right: 80px;
   background: #fff;
   padding: 12px 50px;
   box-shadow: 3px 3px 15px 1px rgba(0, 0, 0, 0.4);
