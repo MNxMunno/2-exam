@@ -225,7 +225,7 @@ main {
     flex-wrap: wrap;
   }
 
-  .business_img img {
+  video {
     max-width: 333px;
   }
 
