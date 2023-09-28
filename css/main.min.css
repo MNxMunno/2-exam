@@ -83,14 +83,6 @@ main {
     display: -webkit-box;
     display: -ms-flexbox;
   }
-  #email,
-  #how,
-  #tel,
-  #text,
-  .nav-links,
-  textarea {
-    display: none;
-  }
   .footer,
   .hero_main {
     -webkit-box-orient: vertical;
@@ -109,27 +101,29 @@ main {
     align-items: center;
     position: relative;
   }
-  .nav-links {
-    flex-direction: column;
+  #email,
+  #how,
+  #tel,
+  #text,
+  .nav-links,
+  textarea {
+    display: none;
   }
+  .dropdown,
   .form h6,
-  .nav-menu,
-  .showmenu {
+  .nav-menu {
     display: block;
-  }
-  .nav-links a {
-    padding: 2% 0;
   }
   .nav-menu {
     position: absolute;
-    top: 28px;
+    top: -10px;
     right: 22px;
   }
   .hero-section {
     height: 1450px;
   }
   .hero_main {
-    margin-top: 400px;
+    margin-top: 120px;
     display: flex;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;

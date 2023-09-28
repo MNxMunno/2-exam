@@ -117,23 +117,17 @@ main {
   }
 
   .nav-links {
-    display: flex;
-    flex-direction: column;
     display: none;
-  }
-
-  .nav-links a {
-    padding: 2% 0;
   }
 
   .nav-menu {
     display: block;
     position: absolute;
-    top: 28px;
+    top: -10px;
     right: 22px;
   }
 
-  .showmenu {
+  .dropdown {
     display: block;
   }
 
@@ -142,7 +136,7 @@ main {
   }
 
   .hero_main {
-    margin-top: 400px;
+    margin-top: 120px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
